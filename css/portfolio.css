@@ -324,13 +324,16 @@ summary {
   /* Legacy iOS */
 }
 
+.form-subscription__button {
+  font-family: inherit;
+}
+
 .header-wrapper, .projects, .footer__container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid tomato; */
 }
 
 .nav__logo, .footer__logo {
@@ -689,9 +692,9 @@ ul {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer__logo {
@@ -707,8 +710,6 @@ ul {
 }
 
 .footer__contacts {
-  display: inline-block;
-  margin-right: 70px;
   padding-left: 15px;
   padding-right: 15px;
   font-style: normal;
@@ -724,10 +725,6 @@ ul {
 .footer__mail {
   display: block;
   margin-bottom: 9px;
-}
-
-.social {
-  margin-right: 93px;
 }
 
 .social__list {
