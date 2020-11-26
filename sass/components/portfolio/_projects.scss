@@ -25,6 +25,13 @@
 }
 
 .project__link {
+  display: block;
+
+  margin: 0;
+  padding-bottom: 20px;
+
+  text-decoration: none;
+
   box-shadow: none;
   transition: box-shadow 250ms $time-distribution-function;
 
@@ -45,7 +52,6 @@
   top: 0;
   left: 0;
 
-  display: block;
   content: "";
 
   height: 100%;
