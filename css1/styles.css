@@ -278,7 +278,7 @@ ul {
   transition: transform 250ms var(--time-distribution-function);
 }
 
-.close {
+.modal__close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -315,7 +315,7 @@ ul {
   text-align: center;
 }
 
-.info {
+.form-info {
   display: block;
   margin-top: 4px;
   margin-bottom: 10px;
