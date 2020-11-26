@@ -1,0 +1,22 @@
+.footer__contacts {
+  display: inline-block;
+  margin-right: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  font-style: normal;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__address {
+  display: block;
+  margin-bottom: 9px;
+
+  color: $another-text-color;
+}
+
+.footer__mail {
+  display: block;
+  margin-bottom: 9px;
+}
