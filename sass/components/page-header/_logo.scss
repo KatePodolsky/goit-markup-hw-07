@@ -1,0 +1,7 @@
+.nav__logo {
+  @extend %logo;
+}
+
+.nav__accent {
+  color: $accent-text-color;
+}

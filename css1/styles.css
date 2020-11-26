@@ -14,7 +14,7 @@
   --another-text-color: #ffffff;
   --primery-bgc: #ffffff;
   --accent-bgc: #2196f3;
-  --footer-m-section-bgc: #2f303a;
+  --footer-hero-bgc: #2f303a;
   --secondary-bgc: #f5f4fa;
   --another-bgc: #212121;
   --time-distribution-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -142,7 +142,7 @@ ul {
   height: 80px;
 }
 
-.flex-nav {
+.nav {
   display: flex;
   width: 532px;
   justify-content: space-between;
@@ -178,7 +178,7 @@ ul {
 
 /* Главная секция  */
 
-.m-section {
+.hero {
   height: 600px;
   max-width: 1600px;
   margin-left: auto;
@@ -198,7 +198,7 @@ ul {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.m-section-title {
+.hero-title {
   margin-top: 0;
   margin-bottom: 30px;
 
@@ -213,7 +213,7 @@ ul {
   /* outline: 2px solid tomato; */
 }
 
-.m-section-service {
+.hero__button {
   display: inline-block;
   padding: 10px 32px;
   border-radius: 4px;
@@ -232,8 +232,8 @@ ul {
   transition: background-color 250ms var(--time-distribution-function), color 250ms var(--time-distribution-function);
 }
 
-.m-section-service:hover,
-.m-section-service:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: var(--primery-bgc);
   color: var(--accent-text-color);
 }
@@ -698,18 +698,6 @@ ul {
     transition: fill 250ms var(--time-distribution-function);
   }
 
-  /* .team-position::after {
-  content: "";
-  display: block;
-  height: 44px;
-  width: 206px;
-  margin-left: 32px;
-  background-image: url(../icons/linkedin.svg), url(../icons/facebook.svg),
-    url(../icons/twitter.svg), url(../icons/instagram.svg);
-  background-repeat: no-repeat;
-  background-position: 100%, 75%, 50%, 25%;
-  background-size: 20px 20px;
-  outline: 2px solid tomato; */
 }
 
 /* Постоянные клиенты */
@@ -793,7 +781,7 @@ ul {
 .footer-page {
   padding: 60px 0;
 
-  background-color: var(--footer-m-section-bgc);
+  background-color: var(--footer-hero-bgc);
 }
 
 .footer-contacts {

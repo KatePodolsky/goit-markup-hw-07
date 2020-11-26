@@ -4,29 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <header class="header">
-     <div class="flex-container">
-      <nav class="flex-nav">
-        <a href="index.html" class="logo"> <span class="accent">Web</span>Studio </a>
-        <ul class="flex-list">
-          <li><a href="./index.html" class="nav-link current">Студия</a></li>
-          <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
-          <li><a href="#contacts" class="nav-link">Контакты</a></li>
+     <div class="header-wrapper">
+      <nav class="nav">
+        <a href="index.html" class="nav__logo"> <span class="nav__accent">Web</span>Studio </a>
+        <ul class="nav__list">
+          <li><a href="./index.html" class="nav__link nav__current">Студия</a></li>
+          <li><a href="./portfolio.html" class="nav__link">Портфолио</a></li>
+          <li><a href="#contacts" class="nav__link">Контакты</a></li>
         </ul>
       </nav>
       <address>
-        <a href="mailto:info@devstudio.com" class="contact mail">
+        <a href="mailto:info@devstudio.com" class="header__contact header__mail">
           <svg class="mail-icon">
             <use href="./images/sprite.svg#icon-envelope"></use>
           </svg>
           info@devstudio.com </a>
-        <a href="tel:+380961111111" class="contact">
+        <a href="tel:+380961111111" class="header__contact">
           <svg class="phone-icon">
             <use href="./images/sprite.svg#icon-Vector"></use>
           </svg>
@@ -35,9 +32,9 @@
     </div>
     </header>
     <main>
-      <section class="m-section">
-        <h1 class="m-section-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="m-section-service" data-modal-open>Заказать услугу</button>
+      <section class="hero">
+        <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="hero__button" data-modal-open>Заказать услугу</button>
       </section>
 
       <section class="advantages">

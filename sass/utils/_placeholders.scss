@@ -1,0 +1,38 @@
+%font-button {
+  font-family: inherit;
+}
+
+%container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  /* outline: 2px solid tomato; */
+}
+
+%logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: $logo-color;
+}
+
+%flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+%header-icon {
+  display: inline-flex;
+  vertical-align: middle;
+  margin-right: 10px;
+  fill: currentColor;
+  transition: fill 250ms $time-distribution-function;
+}
